@@ -1,12 +1,52 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Page layout colors */
+  --page-background: #fafafa;
+  --page-foreground: #fff;
+
+  /* Text colors */
+  --text-primary: #000;
+  --text-secondary: #666;
+
+  /* Button colors */
+  --button-primary: #000;
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  --button-secondary-border: #ebebeb;
+  --button-text: #fff;
+
+  /* Form colors */
+  --input-border: #ebebeb;
+  --input-focus-border: #000;
+  --input-background: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    /* Page layout colors */
+    --page-background: #000;
+    --page-foreground: #000;
+
+    /* Text colors */
+    --text-primary: #ededed;
+    --text-secondary: #999;
+
+    /* Button colors */
+    --button-primary: #ededed;
+    --button-primary-hover: #ccc;
+    --button-secondary-hover: #1a1a1a;
+    --button-secondary-border: #1a1a1a;
+    --button-text: #000;
+
+    /* Form colors */
+    --input-border: #1a1a1a;
+    --input-focus-border: #ededed;
+    --input-background: #0a0a0a;
   }
 }
 

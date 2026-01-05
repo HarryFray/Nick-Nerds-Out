@@ -1,7 +1,7 @@
 /* Shared base styles - common layout patterns */
 .page {
   display: flex;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--header-height));
   align-items: center;
   justify-content: center;
   font-family: var(--font-geist-sans);
@@ -10,7 +10,7 @@
 
 .main {
   display: flex;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--header-height));
   width: 100%;
   max-width: 600px;
   flex-direction: column;

@@ -21,6 +21,9 @@
   --input-border: #ebebeb;
   --input-focus-border: #000;
   --input-background: #fff;
+
+  /* Layout dimensions */
+  --header-height: 64px;
 }
 
 html,

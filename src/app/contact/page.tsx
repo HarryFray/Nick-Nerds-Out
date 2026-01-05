@@ -13,7 +13,7 @@ export default function Contact() {
           <h1 className={styles.title}>Get in Touch</h1>
           <p className={styles.subtitle}>
             Have a question or want to work together? Send us a message and
-            we'll get back to you as soon as possible.
+            we&apos;ll get back to you as soon as possible.
           </p>
         </div>
 

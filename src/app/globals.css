@@ -23,33 +23,6 @@
   --input-background: #fff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-
-    /* Page layout colors */
-    --page-background: #000;
-    --page-foreground: #000;
-
-    /* Text colors */
-    --text-primary: #ededed;
-    --text-secondary: #999;
-
-    /* Button colors */
-    --button-primary: #ededed;
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
-    --button-text: #000;
-
-    /* Form colors */
-    --input-border: #1a1a1a;
-    --input-focus-border: #ededed;
-    --input-background: #0a0a0a;
-  }
-}
-
 html,
 body {
   max-width: 100vw;
@@ -76,6 +49,31 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+
+    /* Page layout colors */
+    --page-background: #000;
+    --page-foreground: #000;
+
+    /* Text colors */
+    --text-primary: #ededed;
+    --text-secondary: #999;
+
+    /* Button colors */
+    --button-primary: #ededed;
+    --button-primary-hover: #ccc;
+    --button-secondary-hover: #1a1a1a;
+    --button-secondary-border: #1a1a1a;
+    --button-text: #000;
+
+    /* Form colors */
+    --input-border: #1a1a1a;
+    --input-focus-border: #ededed;
+    --input-background: #0a0a0a;
+  }
+
   html {
     color-scheme: dark;
   }

@@ -1,19 +1,10 @@
-import type { Metadata } from "next";
 import styles from "./page.module.css";
 
-type Props = {
+type NerdlingPageProps = {
   params: Promise<{ nerdling_id: string }>;
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { nerdling_id } = await params;
-  return {
-    title: `Nerdling ${nerdling_id}`,
-    description: `Details for Nerdling ${nerdling_id}`,
-  };
-}
-
-export default async function NerdlingPage({ params }: Props) {
+export default async function NerdlingPage({ params }: NerdlingPageProps) {
   const { nerdling_id } = await params;
 
   return (
@@ -49,5 +40,6 @@ export default async function NerdlingPage({ params }: Props) {
 }
 
 export async function generateStaticParams() {
+  // TODO: fetch nerdlings from the database for SSG
   return [{ nerdling_id: "1" }, { nerdling_id: "2" }, { nerdling_id: "3" }];
 }

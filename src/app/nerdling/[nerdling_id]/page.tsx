@@ -19,13 +19,16 @@ export default async function NerdlingPage({ params }: NerdlingPageProps) {
 
         <div className={styles.content}>
           <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Description</h2>
-            <p className={styles.description}>
-              This is a placeholder description for Nerdling {nerdling_id}. Add
-              your project details, features, and information here.
-            </p>
+            <h2 className={styles.sectionTitle}>What learn next</h2>
+            <ul className={styles.list}>
+              <li className={styles.listItem}>
+                Why is it important to avoid useEffect, some devs are very much
+                against it.
+              </li>
+              <li className={styles.listItem}>Item 2</li>
+              <li className={styles.listItem}>Item 3</li>
+            </ul>
           </section>
-
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Details</h2>
             <p className={styles.description}>

@@ -29,6 +29,9 @@ export default async function NerdlingPage({ params }: NerdlingPageProps) {
                 When to use useEffect, useMemo, useCallback and when to avoid
                 them, how does this relate to react compiler?
               </li>
+              <li className={styles.listItem}>
+                Learn best practice for utilizing Supabase for nextjs projects.
+              </li>
               <li className={styles.listItem}>Item 2</li>
               <li className={styles.listItem}>Item 3</li>
             </ul>

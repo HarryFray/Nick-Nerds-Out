@@ -25,6 +25,10 @@ export default async function NerdlingPage({ params }: NerdlingPageProps) {
                 Why is it important to avoid useEffect, some devs are very much
                 against it.
               </li>
+              <li className={styles.listItem}>
+                When to use useEffect, useMemo, useCallback and when to avoid
+                them, how does this relate to react compiler?
+              </li>
               <li className={styles.listItem}>Item 2</li>
               <li className={styles.listItem}>Item 3</li>
             </ul>
